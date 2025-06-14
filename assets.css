@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    margin: 0; /* Elimina el margen por defecto */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    background-color: #aba9a9; /* Color de fondo de la página */
+    color: #333; /* Color del texto */
+}
+
+h1, h2 {
+    color: #333; /* Color del texto de los encabezados */
+}
+
+p {
+    color: #666; /* Color del texto de los párrafos */
+    line-height: 1.5; /* Espaciado entre líneas */
+    }
+
+    .list-item {
+        color: #007bff; /* Color de los elementos de la lista */
+        font-weight: bold; /* Negrita para los elementos de la lista */
+    }
+    
+    .logo {
+        border: 2px solid #ccc; /* Borde alrededor de la imagen */
+        border-radius: 10px; /* Bordes redondeados */
+}
+
+input {
+    margin: 10px 0; /* Espacio entre los inputs */
+    padding: 5px; /* Espacio interno en los inputs */
+    border: 1px solid #ccc; /* Borde de los inputs */
+    border-radius: 5px; /* Bordes redondeados para los inputs */
+}
+
+a {
+    color: #007bff; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el cursor sobre los enlaces */
+}
+
+h1 {
+    font-size: 2em; /* Tamaño de fuente para el encabezado principal */
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+h2 {
+    font-size: 1.5em; /* Tamaño de fuente para el segundo encabezado */
+    margin-top: 20px; /* Espacio encima del segundo encabezado */
+}
+
+p {
+    font-size: 1em; /* Tamaño de fuente para los párrafos */
+    margin-bottom: 15px; /* Espacio debajo de los párrafos */
+}
