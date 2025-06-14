@@ -1,0 +1,210 @@
+<!DOCTYPE html> <!--Esto es un NODO siendo una declaracion que le dice al navegador que este es un documento HTML5-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- Codificacion, ¿Qué clasificacion se utiliza? ¿Permite emogis? ¿Permite Ñ?-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Que se adapte el ancho del dispositivo-->
+    <meta name="robots" content="index, follow"> <!-- Indica a los motores de búsqueda que indexen la página y sigan los enlaces -->
+    <meta name="theme-color" content="#ffffff"> <!-- Color del tema para navegadores móviles -->
+
+    <meta name="description" content="Página para practicar las habilidades y participar en World Skills,
+                un proyecto de aprendizaje en ADSO."> <!-- Descripción de la página para SEO -->
+
+    <!--Open Graph-->
+    <meta property="og:title" content="Un proyecto para WORLD SKILLS"> <!-- Título para redes sociales -->
+    <meta property="og:description" content="Página para practicar las habilidades y participar en World Skills,
+                un proyecto de aprendizaje en ADSO."> <!-- Descripción para redes sociales -->
+    <meta property="og:image" content="images/github logo.png"> <!-- Imagen para redes sociales -->
+    <meta property="og:url" content="https://example.com"> <!-- URL de la página para redes sociales -->
+
+    <link rel="alternate" href="https://cris&san.com/en" hreflang="en"> <!-- Enlace alternativo para el idioma inglés -->
+    <link rel="canonical" href="https://cris&san.com"> <!-- URL canónica para evitar contenido duplicado -->
+
+    <link rel="icon" type="image/png" href="images/github logo.png" > <!-- Icono de la página -->
+
+    <title>WORLD SKILLS</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif; /* Fuente del texto */
+            margin: 0; /* Elimina el margen por defecto */
+            padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+            background-color: #aba9a9; /* Color de fondo de la página */
+            color: #333; /* Color del texto */
+        }
+        h1, h2 {
+            color: #333; /* Color del texto de los encabezados */
+        }
+        p {
+            color: #666; /* Color del texto de los párrafos */
+            line-height: 1.5; /* Espaciado entre líneas */
+        }
+        .list-item {
+            color: #007bff; /* Color de los elementos de la lista */
+            font-weight: bold; /* Negrita para los elementos de la lista */
+        }
+        .logo {
+            border: 2px solid #ccc; /* Borde alrededor de la imagen */
+            border-radius: 10px; /* Bordes redondeados */
+        }
+        input {
+            margin: 10px 0; /* Espacio entre los inputs */
+            padding: 5px; /* Espacio interno en los inputs */
+            border: 1px solid #ccc; /* Borde de los inputs */
+            border-radius: 5px; /* Bordes redondeados para los inputs */
+        }
+        a {
+            color: #007bff; /* Color de los enlaces */
+            text-decoration: none; /* Sin subrayado en los enlaces */
+        }
+        a:hover {
+            text-decoration: underline; /* Subrayado al pasar el cursor sobre los enlaces */
+        }
+        h1 {
+            font-size: 2em; /* Tamaño de fuente para el encabezado principal */
+            margin-bottom: 20px; /* Espacio debajo del encabezado */
+        }
+        h2 {
+            font-size: 1.5em; /* Tamaño de fuente para el segundo encabezado */
+            margin-top: 20px; /* Espacio encima del segundo encabezado */
+        }
+        p {
+            font-size: 1em; /* Tamaño de fuente para los párrafos */
+            margin-bottom: 15px; /* Espacio debajo de los párrafos */
+        }
+    </style>
+
+</head>
+    <!--HTML Semantico = HTML con significado-->
+<body>
+    <!---titulos-->
+    <h1>somos santiago y cristian</h1>
+    <!--van desde h1 .. h6-->
+
+    <!---parrafo-->
+    <p>
+    Somos dos aprendices enfocados en aprender para seguir nuestro camino como
+        <!---negrita-->
+        <strong>ingenieros en telemática</strong>. gracias
+    </p>
+    
+    <p>
+        <b>¿A?</b>
+        <em>a</em>
+    </p>
+
+    <h2>Vamos a ser full stack developers</h2>
+
+    <h1>Vamos a aprender</h1>
+    
+    <!---lista desordenada = Unordered list--->
+    <ul>
+        <!---elemento de la lista = list item-->
+        <li class="list-item">python</li>
+        <li class="list-item">javascript</li>
+        <li class="list-item">c++</li>
+        <li class="list-item">java</li>
+    </ul>
+
+    <!-- img para colocar imagenes y se considera una etiqueta remplazable
+    source = src y eso es un atributo, existen globales como class, id
+    y especificos como SRC que pide un documento en especifico 
+
+    hidden es un atributo booleano y dice "Este elemento esta oculto" 
+    id es un identificador unico
+    class son atributos globales -ue utilizan varios items-->
+    
+    <img
+        id="github-logo" 
+        class="logo"
+        title="logo de GitHub"
+        width="200"
+        height="200"
+        alt="una imagen del logo de GitHub"
+        src="images/github logo.png"
+    />
+    
+    <br> <!---espacio-->
+
+    <!--cajas para introducir datos
+    las etiquetas input no se cierran como las de imagen pues tambien son remplazables--->
+    <input type="color" value="#ff0000">
+    <input type="color">
+    <br>
+    <input type="file">
+    <br>
+    <input type="range">
+    <br>
+    <input type="date" value="2023-10-01">
+    <br>
+    <input type="datetime-local">
+    <br>
+    <input type="email" placeholder="Ingrese su correo electrónico">
+    <br>
+    <input type="number" min="1" max="10" value="5">
+    <br>
+    <input type="password" placeholder="Ingrese su contraseña">
+    <br>
+    <input type="search" placeholder="Buscar...">
+    <br>
+    <input type="tel" placeholder="Ingrese su número de teléfono"> 
+
+    <br>
+
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Documentación HTML</a>
+    <br>
+    <a href="https://ogp.me/">Open Graph Protocol</a>
+
+    <br>
+
+    <h2>HTML Semantico </h2>
+    <aside> <!--aside es un elemento que se utiliza para contenido relacionado pero no principal-->
+        <div>
+            <header> <!--hidden es un atributo booleano que oculta el contenido-->
+                <h3>hola soy jorge </h3> 
+            </header>
+            
+            <ol> <!--lista ordenada = Ordered list-->
+            <li>javascript</li>
+            <li>html</li>
+            <li>css</li>
+            </ol>
+        </div>    
+    </aside>
+        
+    <aside>
+        <span>Empresas paras las cuales vamos a trabajar</span>
+        <div>
+             <span>IBM</span>
+             <span>GLOBANT</span>
+             <span>ORACLE</span>
+        </div>
+    </aside>
+    
+    <section>
+        <article> <!--article es un elemento que representa un contenido independiente y autocontenido-->
+            <header> <!--header es un elemento que contiene encabezados y metadatos-->
+                <h4>Creadores de contenido que hemos visto</h4> 
+            </header>
+            <p>como los creadores son muy buneno decidimos separarlos en grupos como</p>
+            <footer> <!---footer se utiliza para informacion menos inportante-->
+                <small> <!--small es un elemento que se utiliza para texto de menor importancia o mas pequeño-->
+                    Creadores de contenido que hemos visto
+                    y que nos han ayudado a aprender
+                </small> <!--Es una información secundaria-->
+            </footer>
+            <div>
+                <div>
+                    <span>MoureDev </span>
+                    <span>Midudev</span>
+                    <span>Otro Informatico Más</span>
+                    <span>DotDager</span>
+                    <span>SoyDalton</span>
+                </div>
+            </div>
+        </article>
+    </section>
+
+
+
+</html> 
