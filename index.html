@@ -10,7 +10,7 @@
     <meta name="description" content="Página para practicar las habilidades y participar en World Skills,
                 un proyecto de aprendizaje en ADSO."> <!-- Descripción de la página para SEO -->
 
-    <!--Open Graph--> 
+    <!--Open Graph-->  
     <meta property="og:title" content="Un proyecto para WORLD SKILLS"> <!-- Título para redes sociales -->
     <meta property="og:description" content="Página para practicar las habilidades y participar en World Skills,
                 un proyecto de aprendizaje en ADSO."> <!-- Descripción para redes sociales -->
@@ -21,22 +21,35 @@
     <link rel="canonical" href="https://cris&san.com"> <!-- URL canónica para evitar contenido duplicado -->
 
     <link rel="icon" type="image/png" href="images/github logo.png" > <!-- Icono de la página -->
-    <link rel="stylesheet" href="assets.css"> <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Enlace a la hoja de estilos CSS -->
 
     <title>WORLD SKILLS</title>
 
 </head> 
     <!--HTML Semantico = HTML con significado-->
+    
 <body>
+    <header>
     <!---titulos-->
-    <h1>somos santiago y cristian</h1>
+    <h1>somos santiago y cristian</h1> 
     <!--van desde h1 .. h6-->
+        <nav>
+            <a href ="#creadores">creadores vistos</a>
+            <a href ="#vamosaprender">vamos a aprender</a>
+            <a href="https://www.youtube.com/watch?v=3nYLTiY5skU"
+            target="_blank"
+            rel="noreferrer"
+            >Course in youtube of HTML from midudev</a> 
+        </nav>
+    </header>
+    
+    <main> <!---main es un elemento que representa el contenido principal del documento-->
 
     <!---parrafo-->
     <p>
     Somos dos aprendices enfocados en aprender para seguir nuestro camino como
         <!---negrita-->
-        <strong>ingenieros en telemática</strong>. gracias
+        <strong>ingenieros en telemática</strong>. Gracias
     </p>
     
     <p>
@@ -46,7 +59,7 @@
 
     <h2>Vamos a ser full stack developers</h2>
 
-    <h1>Vamos a aprender</h1>
+    <h2 id="vamosaaprender">Vamos a aprender</h2>
     
     <!---lista desordenada = Unordered list--->
     <ul>
@@ -64,8 +77,8 @@
     hidden es un atributo booleano y dice "Este elemento esta oculto" 
     id es un identificador unico
     class son atributos globales -ue utilizan varios items-->
-    
-    <img
+    <a href>
+        <img
         id="github-logo" 
         class="logo"
         title="logo de GitHub"
@@ -74,6 +87,7 @@
         alt="una imagen del logo de GitHub"
         src="images/github logo.png"
     />
+    </a>
     
     <br> <!---espacio-->
 
@@ -123,7 +137,7 @@
         </div>    
     </aside>
         
-    <aside>
+    <aside> 
         <span>Empresas paras las cuales vamos a trabajar</span>
         <div>
              <span>IBM</span>
@@ -135,7 +149,7 @@
     <section>
         <article> <!--article es un elemento que representa un contenido independiente y autocontenido-->
             <header> <!--header es un elemento que contiene encabezados y metadatos-->
-                <h4>Creadores de contenido que hemos visto</h4> 
+                <h4 id="creadores">Creadores de contenido que hemos visto</h4> 
             </header>
             <p>como los creadores son muy buneno decidimos separarlos en grupos como</p>
             <footer> <!---footer se utiliza para informacion menos inportante-->
@@ -155,8 +169,13 @@
             </div>
         </article>
     </section>
+    </main>
+    <footer>
+        <small>Copyright &copy; 2023 Santiago y Cristian. Todos los derechos reservados.</small>
 
-<p>hola </p>
-
+        <a href ="">Envianos un correo</a>
+        <a href="whatsapp://-send? text=Hola 3144314902">Escribenos al whatsapp</a>
+    </footer>
+</body>
 
 </html> 
